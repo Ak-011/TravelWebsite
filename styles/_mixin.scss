@@ -1,0 +1,22 @@
+@mixin svgCode($colorz) {
+    svg {
+        path {
+            fill: $colorz;
+        }
+    }
+}
+
+@mixin image($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+

@@ -1,0 +1,60 @@
+@use '@styles/theme' as *;
+
+.mainContainer {
+    display: flex;
+    gap: 20px;
+    padding: 24px;
+    font-size: 24px;
+    background-color: $lightBlue;
+    z-index: 99;
+    // opacity: 50%;
+    // position:absolute;
+
+    @include breakpoints('desktop') {
+        margin: 0 auto;
+        max-width: 1440px;
+        justify-content: space-between;
+    }
+
+    .resumeIcon {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        color: black;
+
+        @include breakpoints('desktop') {
+            flex-direction: row;
+            gap: 40px;
+        }
+
+        .search {
+            svg {
+                path {
+                    fill: none;
+                }
+            }
+        }
+    }
+
+    .home {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+
+        @include breakpoints('desktop') {
+            flex-direction: row;
+            color: black;
+
+        }
+
+        .circle {
+            svg {
+                path {
+                    fill: none;
+                }
+            }
+        }
+
+        
+    }
+}
