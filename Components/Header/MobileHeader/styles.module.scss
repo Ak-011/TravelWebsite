@@ -1,0 +1,22 @@
+@use '@styles/theme' as *;
+
+.mainContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 24px;
+    font-size: 24px;
+    background-color: $lightBlue;
+    z-index: 99;
+
+    .resumeIcon {
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+
+    .hamburger {
+        display: flex;
+        gap: 8px;
+    }
+}

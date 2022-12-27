@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300 900;
+    src: url('/assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Gilroy-Bold.woff') format('woff'),
+        url('/assets/fonts/Gilroy-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-RegularItalic';
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300 900;
+    src: url('/assets/fonts/Gilroy-RegularItalic.woff2') format('woff2'),
+        url('/assets/fonts/Gilroy-RegularItalic.woff') format('woff'),
+        url('/assets/fonts/Gilroy-RegularItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-SemiBold'; 
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300 900;
+    src: url('/assets/fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('/assets/fonts/Gilroy-Semibold.woff') format('woff'),
+        url('/assets/fonts/Gilroy-Semibold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300 400;
+    src: url('/assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Regular.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    font-display: swap;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500 900;
+    src: url('/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Medium.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Medium.ttf') format('truetype');
+}
